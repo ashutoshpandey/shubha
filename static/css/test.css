@@ -1,0 +1,15 @@
+body{
+	background-color: #59a291;
+}
+
+p{
+	border: solid 1px #ff0000;
+}
+
+#abc{
+	font-weight: bold;
+}
+
+.xyz{
+	color: blue;
+}
