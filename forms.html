@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<body>
+    <!-- 1 example -->
+    <form action="/action_page.php" method="post">
+        <input type="text" name="fname" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>If you click submit, without filling out the text field,
+        your browser will display an error message.</p>
+        <!-- 2 example -->
+
+    <form name="myForm" action="/action_page.php" onsubmit="return validateForm()" method="post">
+        Name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+    <!-- 3 example -->
+    
+<h2>JavaScript Can Validate Input</h2>
+
+<p>Please input a number between 1 and 10:</p>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+    <script src="static/js/forms.js"></script>
+</body>
+
+</html>

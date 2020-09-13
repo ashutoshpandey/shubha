@@ -20,3 +20,13 @@ if (book == "history") {
 } else {
     document.write("<b>Unknown Book</b>");
 }
+// example 4
+for (var counter = 1; counter < 5; counter++) {
+    console.log('Inside the loop:' + counter);
+}
+console.log('Outside the loop:' + counter);
+// example 5
+var j = 1;
+for (; j < 10; j += 2) {
+    console.log(j);
+}
