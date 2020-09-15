@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validation-form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container"><br>
+        <h1 class="text-success text-center">Complete form validation in javascript</h1><br>
+        <div class="col-lg-8 m-auto d-block">
+            <form action="#" onsubmit="return validation()" class="bg-light">
+                <div class="form-group">
+                    <label>Username</label>
+                    <input type="text" name="user" class="form-control" id="user">
+                    <span id="username" class="text-danger font-weight-bold"></span>
+                </div>
+                <div class="form-group">
+                    <label>Password</label>
+                    <input type="password" name="pass" class="form-control" id="pass">
+                    <span id="pass-word" class="text-danger font-weight-bold"></span>
+                </div>
+                <div class="form-group">
+                    <label>confirm Password</label>
+                    <input type="password" name="confirm-pass" class="form-control" id="confirm-pass">
+                    <span id="con-password" class="text-danger font-weight-bold"></span>
+                </div>
+                <div class="form-group">
+                    <label>Phone number</label>
+                    <input type="number" name="phone" class="form-control" id="phone">
+                    <span id="phone-number" class="text-danger font-weight-bold"></span>
+                </div>
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" class="form-control" id="email">
+                    <span id="email-id" class="text-danger font-weight-bold"></span>
+                </div>
+                <input type="submit" name="submit" value="submit" class="btn btn-success">
+            </form>
+        </div>
+    </div>
+    <script src="static/js/validation-form.js"></script>
+</body>
+
+</html>
